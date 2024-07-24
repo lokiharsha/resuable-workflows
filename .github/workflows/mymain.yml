@@ -20,4 +20,4 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
-    uses: 
+    uses: .github/workflows/on-push-job.yml
